@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Coiny&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="homepage text-white d-flex flex-column justify-content-between">
+      <header class="d-flex justify-content-around pt-2 align-items-center">
+        <div class="">
+          <img
+            src="./images/smile_off.png"
+            alt="smile-face"
+            class="smile-face-logo"
+          />
+          <img
+            src="./images/logo.png"
+            alt="logo"
+            class="smile-face-logo-text ml-1"
+          />
+        </div>
+        <ul class="list-inline d-flex mb-0 align-items-center">
+          <li class="">
+            <a href="#" class="text-white font-weight-bold px-2"> COURSES</a>
+          </li>
+          <li class="font-weight-bold">
+            <a href="#" class="text-white font-weight-bold px-2">PRICING</a>
+          </li>
+          <li class="font-weight-bold">
+            <a href="#" class="text-white font-weight-bold px-2">LOGIN</a>
+          </li>
+        </ul>
+      </header>
+      <section class="text-center">
+        <h1 class="font-weight-bold homepage-tittle">Get schooled</h1>
+        <ul class="d-flex justify-content-center list-unstyled">
+          <li class="mx-1">SMILES</li>
+          <li class="mx-1">GRIN</li>
+          <li class="mx-1">LAUGH</li>
+        </ul>
+        <button class="register-button btn btn-primary">
+          REGISTER FOR FREE
+        </button>
+      </section>
+      <section class="text-center">
+        <h2>
+          <span class="my-color font-weight-bold">Learn</span> from the pros
+        </h2>
+        <ul
+          class="d-flex people flex-wrap justify-content-around list-unstyled"
+        >
+          <li>
+            <img
+              src="./images/profile_1.jpg"
+              alt="Phillip"
+              class="rounded-circle"
+            />
+            <p class="font-weight-bold">Phillip Massey</p>
+            <p>« Smile of the year »</p>
+            <p>2018 - 2019</p>
+          </li>
+          <li>
+            <img
+              src="./images/profile_2.jpg"
+              alt="Nannie"
+              class="rounded-circle"
+            />
+            <p class="font-weight-bold">Nannie Lawrence</p>
+            <p>Best « little smile »</p>
+            <p>2017</p>
+          </li>
+          <li>
+            <img
+              src="./images/profile_3.jpg"
+              alt="Bruce"
+              class="rounded-circle"
+            />
+            <p class="font-weight-bold">Bruce Walters</p>
+            <p>Best « Friend Smile »</p>
+            <p>live performance 2019</p>
+          </li>
+          <li>
+            <img
+              src="./images/profile_4.jpg"
+              alt="Henry"
+              class="rounded-circle"
+            />
+            <p class="font-weight-bold">Henry Hughes</p>
+            <p>« 24h smiles »</p>
+            <p>winner 2016 - 2019</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="quotes my-bg-color py-3 text-white">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <img
+                src="/images/profile_5.jpg"
+                class="rounded-circle"
+                alt="happy-guy"
+              />
+              <div class="d-flex flex-column justify-content-center mx-5 w-50">
+                <p class="mb-3">
+                  « Those tutorials are concise and go straight to the point. I
+                  can’t think of a better place to learn smiling. And it’s so
+                  fun!
+                </p>
+                <p class="font-weight-bold">Person Name</p>
+                <p>weather presenter</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img
+                src="/images/profile_5.jpg"
+                class="rounded-circle"
+                alt="happy-guy"
+              />
+              <div class="d-flex flex-column justify-content-center mx-5 w-50">
+                <p class="mb-3">
+                  « Those tutorials are concise and go straight to the point. I
+                  can’t think of a better place to learn smiling. And it’s so
+                  fun!
+                </p>
+                <p class="font-weight-bold">Person Name</p>
+                <p>weather presenter</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <section class="populars-videos">
+      <div class="m-5">
+        <h3 class="text-center mb-5">
+          Most <span class="my-color font-weight-bold">popular</span> tutorials
+        </h3>
+        <div
+          id="carouselExampleControls2"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-deck">
+                <div class="card border-0">
+                  <img src="/images/thumbnail_1.jpg" alt="happy-person" />
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Diagonal Smile</h6>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Eum consectetur corrupti qui.
+                    </p>
+                    <div class="row my-3 d-flex align-items-center">
+                      <img
+                        class="rounded-circle col-3"
+                        src="images/profile_1.jpg"
+                        alt="happy-guy"
+                      />
+                      <h6 class="font-weight-bold my-color">Phillip Massey</h6>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_off.png"
+                          alt="start-off"
+                        />
+                      </div>
+                      <p class="my-color ml-auto">8 min</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img src="/images/thumbnail_2.jpg" alt="happy-person" />
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Diagonal Smile</h6>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Eum consectetur corrupti qui.
+                    </p>
+                    <div class="row my-3 d-flex align-items-center">
+                      <img
+                        class="rounded-circle col-3"
+                        src="images/profile_1.jpg"
+                        alt="happy-guy"
+                      />
+                      <h6 class="font-weight-bold my-color">Phillip Massey</h6>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_off.png"
+                          alt="start-off"
+                        />
+                      </div>
+                      <p class="my-color ml-auto">8 min</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img src="/images/thumbnail_3.jpg" alt="happy-person" />
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Diagonal Smile</h6>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Eum consectetur corrupti qui.
+                    </p>
+                    <div class="row my-3 d-flex align-items-center">
+                      <img
+                        class="rounded-circle col-3"
+                        src="images/profile_1.jpg"
+                        alt="happy-guy"
+                      />
+                      <h6 class="font-weight-bold my-color">Phillip Massey</h6>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_off.png"
+                          alt="start-off"
+                        />
+                      </div>
+                      <p class="my-color ml-auto">8 min</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img src="/images/thumbnail_4.jpg" alt="happy-person" />
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Diagonal Smile</h6>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Eum consectetur corrupti qui.
+                    </p>
+                    <div class="row my-3 d-flex align-items-center">
+                      <img
+                        class="rounded-circle col-3"
+                        src="images/profile_1.jpg"
+                        alt="happy-guy"
+                      />
+                      <h6 class="font-weight-bold my-color">Phillip Massey</h6>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_off.png"
+                          alt="start-off"
+                        />
+                      </div>
+                      <p class="my-color ml-auto">8 min</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-deck">
+                <div class="card border-0">
+                  <img src="/images/thumbnail_1.jpg" alt="happy-person" />
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Diagonal Smile</h6>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Eum consectetur corrupti qui.
+                    </p>
+                    <div class="row my-3 d-flex align-items-center">
+                      <img
+                        class="rounded-circle col-3"
+                        src="images/profile_1.jpg"
+                        alt="happy-guy"
+                      />
+                      <h6 class="font-weight-bold my-color">Phillip Massey</h6>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_off.png"
+                          alt="start-off"
+                        />
+                      </div>
+                      <p class="my-color ml-auto">8 min</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img src="/images/thumbnail_2.jpg" alt="happy-person" />
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Diagonal Smile</h6>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Eum consectetur corrupti qui.
+                    </p>
+                    <div class="row my-3 d-flex align-items-center">
+                      <img
+                        class="rounded-circle col-3"
+                        src="images/profile_1.jpg"
+                        alt="happy-guy"
+                      />
+                      <h6 class="font-weight-bold my-color">Phillip Massey</h6>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_off.png"
+                          alt="start-off"
+                        />
+                      </div>
+                      <p class="my-color ml-auto">8 min</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img src="/images/thumbnail_3.jpg" alt="happy-person" />
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Diagonal Smile</h6>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Eum consectetur corrupti qui.
+                    </p>
+                    <div class="row my-3 d-flex align-items-center">
+                      <img
+                        class="rounded-circle col-3"
+                        src="images/profile_1.jpg"
+                        alt="happy-guy"
+                      />
+                      <h6 class="font-weight-bold my-color">Phillip Massey</h6>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_off.png"
+                          alt="start-off"
+                        />
+                      </div>
+                      <p class="my-color ml-auto">8 min</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img src="/images/thumbnail_4.jpg" alt="happy-person" />
+                  <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Diagonal Smile</h6>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Eum consectetur corrupti qui.
+                    </p>
+                    <div class="row my-3 d-flex align-items-center">
+                      <img
+                        class="rounded-circle col-3"
+                        src="images/profile_1.jpg"
+                        alt="happy-guy"
+                      />
+                      <h6 class="font-weight-bold my-color">Phillip Massey</h6>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_on.png"
+                          alt="start-on"
+                        />
+                        <img
+                          class="star"
+                          src="images/star_off.png"
+                          alt="start-off"
+                        />
+                      </div>
+                      <p class="my-color ml-auto">8 min</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls2"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls2"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
